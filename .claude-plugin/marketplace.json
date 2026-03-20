@@ -1,0 +1,20 @@
+{
+  "name": "code-optimizer-plugin",
+  "owner": {
+    "name": "OptimizeTools"
+  },
+  "metadata": {
+    "description": "Performance analysis tools for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "code-optimizer",
+      "source": "./code-optimizer",
+      "description": "Analyzes your codebase for performance bottlenecks and suggests optimizations using static analysis",
+      "version": "1.0.0",
+      "author": {
+        "name": "OptimizeTools"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "code-optimizer",
+  "description": "Analyzes your codebase for performance bottlenecks and suggests optimizations using static analysis",
+  "author": {
+    "name": "OptimizeTools",
+    "email": "support@optimize-tools.dev"
+  }
+}
